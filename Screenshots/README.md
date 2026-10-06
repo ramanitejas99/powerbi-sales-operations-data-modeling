@@ -1,8 +1,6 @@
-
-## 📸 Project Screenshots
+## 📊 Project Details
 
 ### 1. Data Model
-![Data Model](Screenshots/01_Star_Schema_Data_Model.png)
 
 A star schema built for sales and operations analysis.
 
@@ -21,7 +19,6 @@ A star schema built for sales and operations analysis.
 ---
 
 ### 2. Power Query Pipeline
-![Power Query](Screenshots/02_Power_Query_Pipeline_Layers.png)
 
 34 queries organized into four layers:
 
@@ -37,7 +34,6 @@ A star schema built for sales and operations analysis.
 ---
 
 ### 3. Raw Source Tables
-![Source Tables](Screenshots/03_Raw_Source_Tables_Overview.png)
 
 22 raw source tables covering:
 - **Customers and geography:** CUST_MASTER, Address, cities, regions, customer_contacts, user_details
@@ -50,7 +46,6 @@ A star schema built for sales and operations analysis.
 ---
 
 ### 4. DAX Measures
-![DAX Measures](Screenshots/04_DAX_Measures_Table.png)
 
 A dedicated `_measure` table with reusable measures:
 
@@ -65,7 +60,6 @@ A dedicated `_measure` table with reusable measures:
 ---
 
 ### 5. Data Validation
-![Validation](Screenshots/05_Model_Validation_Dashboard.png)
 
 A validation page built to check the model before creating final dashboards.
 
@@ -74,4 +68,3 @@ A validation page built to check the model before creating final dashboards.
 - **Matrix by Year / Quarter / Month:** Total Sales, Target Revenue and Total Units, compared against the source data
 
 **Checks performed:** row counts, duplicate and missing keys, fact-table grain, relationship cardinality, filter propagation, and source vs. model totals.
-

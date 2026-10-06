@@ -3,7 +3,7 @@
 ### Data Model
 Star schema with 6 fact tables, shared dimensions, role-playing date relationships and a security table.
 
-![Data Model](Screenshots/01_Star_Schema_Data_Model.png)
+![Data Model](Screenshots/README.md/01_Star_Schema_Data_Model.png)
 
 ### Power Query Pipeline
 34 queries organized into Source, Dimension, Fact and Support layers.
